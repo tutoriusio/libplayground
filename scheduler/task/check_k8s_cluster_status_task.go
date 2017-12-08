@@ -4,9 +4,9 @@ import (
 	"context"
 	"log"
 
-	"github.com/play-with-docker/play-with-docker/event"
-	"github.com/play-with-docker/play-with-docker/k8s"
-	"github.com/play-with-docker/play-with-docker/pwd/types"
+	"github.com/tutoriusio/libplayground/event"
+	"github.com/tutoriusio/libplayground/k8s"
+	"github.com/tutoriusio/libplayground/pwd/types"
 )
 
 type checkK8sClusterStatusTask struct {

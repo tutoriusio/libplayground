@@ -6,7 +6,7 @@ import (
 	"io"
 	"net"
 
-	"github.com/play-with-docker/play-with-docker/pwd/types"
+	"github.com/tutoriusio/libplayground/pwd/types"
 )
 
 var OutOfCapacityError = errors.New("OutOfCapacity")

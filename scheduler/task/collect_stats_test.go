@@ -8,10 +8,10 @@ import (
 	"testing"
 
 	dockerTypes "docker.io/go-docker/api/types"
-	"github.com/play-with-docker/play-with-docker/docker"
-	"github.com/play-with-docker/play-with-docker/event"
-	"github.com/play-with-docker/play-with-docker/pwd/types"
-	"github.com/play-with-docker/play-with-docker/storage"
+	"github.com/tutoriusio/libplayground/docker"
+	"github.com/tutoriusio/libplayground/event"
+	"github.com/tutoriusio/libplayground/pwd/types"
+	"github.com/tutoriusio/libplayground/storage"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/mock"
 )

@@ -9,7 +9,7 @@ import (
 
 	"github.com/gorilla/mux"
 	"github.com/gorilla/websocket"
-	"github.com/play-with-docker/play-with-docker/event"
+	"github.com/tutoriusio/libplayground/event"
 	"github.com/satori/go.uuid"
 )
 

@@ -3,7 +3,7 @@ package handlers
 import (
 	"net/http"
 
-	"github.com/play-with-docker/play-with-docker/config"
+	"github.com/tutoriusio/libplayground/config"
 )
 
 type CookieID struct {

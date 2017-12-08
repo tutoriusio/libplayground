@@ -8,9 +8,9 @@ import (
 	"strings"
 
 	dtypes "docker.io/go-docker/api/types"
-	"github.com/play-with-docker/play-with-docker/config"
-	"github.com/play-with-docker/play-with-docker/docker"
-	"github.com/play-with-docker/play-with-docker/pwd/types"
+	"github.com/tutoriusio/libplayground/config"
+	"github.com/tutoriusio/libplayground/docker"
+	"github.com/tutoriusio/libplayground/pwd/types"
 )
 
 type overlaySessionProvisioner struct {

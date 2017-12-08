@@ -10,9 +10,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/play-with-docker/play-with-docker/config"
-	"github.com/play-with-docker/play-with-docker/provisioner"
-	"github.com/play-with-docker/play-with-docker/pwd/types"
+	"github.com/tutoriusio/libplayground/config"
+	"github.com/tutoriusio/libplayground/provisioner"
+	"github.com/tutoriusio/libplayground/pwd/types"
 )
 
 type NewSessionResponse struct {

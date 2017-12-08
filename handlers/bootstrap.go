@@ -16,9 +16,9 @@ import (
 	gh "github.com/gorilla/handlers"
 	"github.com/gorilla/mux"
 	lru "github.com/hashicorp/golang-lru"
-	"github.com/play-with-docker/play-with-docker/config"
-	"github.com/play-with-docker/play-with-docker/event"
-	"github.com/play-with-docker/play-with-docker/pwd"
+	"github.com/tutoriusio/libplayground/config"
+	"github.com/tutoriusio/libplayground/event"
+	"github.com/tutoriusio/libplayground/pwd"
 	"github.com/prometheus/client_golang/prometheus/promhttp"
 	"github.com/urfave/negroni"
 )

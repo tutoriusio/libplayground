@@ -7,7 +7,7 @@ import (
 	"time"
 
 	docker "docker.io/go-docker"
-	"github.com/play-with-docker/play-with-docker/config"
+	"github.com/tutoriusio/libplayground/config"
 	"github.com/shirou/gopsutil/load"
 )
 

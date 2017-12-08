@@ -6,7 +6,7 @@ import (
 	"net/http"
 
 	"github.com/gorilla/mux"
-	"github.com/play-with-docker/play-with-docker/pwd/types"
+	"github.com/tutoriusio/libplayground/pwd/types"
 )
 
 type SessionInfo struct {

@@ -6,9 +6,9 @@ import (
 	"net"
 	"time"
 
-	"github.com/play-with-docker/play-with-docker/config"
-	"github.com/play-with-docker/play-with-docker/event"
-	"github.com/play-with-docker/play-with-docker/pwd/types"
+	"github.com/tutoriusio/libplayground/config"
+	"github.com/tutoriusio/libplayground/event"
+	"github.com/tutoriusio/libplayground/pwd/types"
 )
 
 func (p *pwd) InstanceResizeTerminal(instance *types.Instance, rows, cols uint) error {

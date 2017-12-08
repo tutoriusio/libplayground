@@ -7,12 +7,12 @@ import (
 	"net"
 	"time"
 
-	"github.com/play-with-docker/play-with-docker/docker"
-	"github.com/play-with-docker/play-with-docker/event"
-	"github.com/play-with-docker/play-with-docker/id"
-	"github.com/play-with-docker/play-with-docker/provisioner"
-	"github.com/play-with-docker/play-with-docker/pwd/types"
-	"github.com/play-with-docker/play-with-docker/storage"
+	"github.com/tutoriusio/libplayground/docker"
+	"github.com/tutoriusio/libplayground/event"
+	"github.com/tutoriusio/libplayground/id"
+	"github.com/tutoriusio/libplayground/provisioner"
+	"github.com/tutoriusio/libplayground/pwd/types"
+	"github.com/tutoriusio/libplayground/storage"
 	"github.com/prometheus/client_golang/prometheus"
 )
 
